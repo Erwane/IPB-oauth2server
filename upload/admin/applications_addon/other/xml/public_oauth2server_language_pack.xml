@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<languageexport>
+  <languagegroup>
+    <lang>
+      <word_app>oauth2server</word_app>
+      <word_pack>public_global</word_pack>
+      <word_key>authorize_api</word_key>
+      <word_default><![CDATA[Autoriser l'application suivante a accéder aux données qu'elle demande ?]]></word_default>
+    </lang>
+    <lang>
+      <word_app>oauth2server</word_app>
+      <word_pack>public_global</word_pack>
+      <word_key>oui</word_key>
+      <word_default>Oui</word_default>
+    </lang>
+    <lang>
+      <word_app>oauth2server</word_app>
+      <word_pack>public_global</word_pack>
+      <word_key>non</word_key>
+      <word_default>Non</word_default>
+    </lang>
+    <lang>
+      <word_app>oauth2server</word_app>
+      <word_pack>public_global</word_pack>
+      <word_key>scope_user.email</word_key>
+      <word_default>votre adresse mail</word_default>
+    </lang>
+    <lang>
+      <word_app>oauth2server</word_app>
+      <word_pack>public_global</word_pack>
+      <word_key>scope_user.profile</word_key>
+      <word_default>vos informations de base</word_default>
+    </lang>
+  </languagegroup>
+</languageexport>

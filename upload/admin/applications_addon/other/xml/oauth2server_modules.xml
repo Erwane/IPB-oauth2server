@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<moduleexport>
+  <modulegroup>
+    <module>
+      <sys_module_title>Main</sys_module_title>
+      <sys_module_application>oauth2server</sys_module_application>
+      <sys_module_key>main</sys_module_key>
+      <sys_module_description>Main API</sys_module_description>
+      <sys_module_version>1.0.0</sys_module_version>
+      <sys_module_protected>0</sys_module_protected>
+      <sys_module_visible>1</sys_module_visible>
+      <sys_module_position>23</sys_module_position>
+      <sys_module_admin>0</sys_module_admin>
+    </module>
+  </modulegroup>
+</moduleexport>

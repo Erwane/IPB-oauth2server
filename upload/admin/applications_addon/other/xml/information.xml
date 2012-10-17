@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<information>
+  <data>
+    <name>OAuth2 Server</name>
+    <public_name>OAuth2 Server</public_name>
+    <hide_tab>1</hide_tab>
+    <author>Erwane @ Phea.fr</author>
+    <description>An OAuth2 Server for IPB</description>
+    <disabledatinstall>0</disabledatinstall>
+    <global_caches/>
+    <website/>
+    <update_check/>
+    <templategroups>
+        <template match="exact">skin_oauth2server</template>
+    </templategroups>
+  </data>
+</information>
