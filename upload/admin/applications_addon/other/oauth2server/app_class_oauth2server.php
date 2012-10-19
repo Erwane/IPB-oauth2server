@@ -24,7 +24,6 @@ class app_class_oauth2server {
    */
   function __construct(ipsRegistry $registry) {
     /* Load Library File */
-    require_once( IPSLib::getAppDir('subscriptions') . '/sources/classes/subsLib.php' );
   }
 
 }
