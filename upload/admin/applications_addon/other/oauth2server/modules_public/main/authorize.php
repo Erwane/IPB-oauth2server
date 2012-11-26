@@ -33,11 +33,7 @@ class public_oauth2server_main_authorize extends ipsCommand {
     }
 
     header('X-Frame-Options: DENY');
-
-
-
     // API key exists
-
     if (!empty($clientData)) {
       // Member already accept this API Key ?
       $acceptedClient = $this->DB->buildAndFetch(array('select' => '*', 'from' => 'oauth2server_authorizes', 'where' => 'client_id=' . (int) $clientData['id'] . ' AND member_id=' . (int) $this->memberData['member_id']));
@@ -62,6 +58,8 @@ class public_oauth2server_main_authorize extends ipsCommand {
         $this->registry->output->addContent($this->output);
         $this->registry->output->sendOutput();
       }
+    } else {
+      trigger_error("Clé inconnue",E_USER_ERROR);
     }
   }
 

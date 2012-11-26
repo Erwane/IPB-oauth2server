@@ -10,6 +10,7 @@
   <input type="hidden" name="response_type" value="${params['response_type']}"/>
   <input type="hidden" name="redirect_uri" value="${params['redirect_uri']}"/>
   <input type="hidden" name="state" value="${params['state']}"/>
+  <input type="hidden" name="scope" value="${params['scope']}"/>        
   <table style="width:500px;margin:20px auto">
     <tbody>
       <tr>
@@ -36,10 +37,10 @@
 </form>]]></template_content>
       <template_name>authorize</template_name>
       <template_data>$api=array(),$params=array()</template_data>
-      <template_updated>1350462575</template_updated>
-      <template_removable>1</template_removable>
-      <template_user_added>1</template_user_added>
-      <template_user_edited>1</template_user_edited>
+      <template_updated>1353777938</template_updated>
+      <template_removable>0</template_removable>
+      <template_user_added>0</template_user_added>
+      <template_user_edited>0</template_user_edited>
       <template_master_key>root</template_master_key>
     </template>
   </templategroup>

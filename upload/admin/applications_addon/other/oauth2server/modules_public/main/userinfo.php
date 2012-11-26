@@ -7,10 +7,7 @@ class public_oauth2server_main_userinfo extends ipsCommand {
   public function doExecute(ipsRegistry $registry) {
     $this->OAuth = new OAuth($this->DB);
 
-
     $token = $this->OAuth->getBearerToken();
-
-
 
     $data = $this->DB->buildAndFetch(array(
       'select' => 'm.*',
